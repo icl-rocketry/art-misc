@@ -1,9 +1,2 @@
-*.pyc
-astra/out.csv
-*.asv
-experimental/build/*
-astra/src/
-*.b#*
-*.s#*
-phone.number
-fix.bat
+DS_Store
+Icon?
