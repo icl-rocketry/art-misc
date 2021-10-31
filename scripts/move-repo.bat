@@ -19,8 +19,6 @@ echo Source repo cloned
 git tag
 git branch -a
 
-PAUSE
-
 git remote rm origin
 git remote add origin %destination% 
 git push origin --all
@@ -36,7 +34,6 @@ cd ..
 rmdir /s /q tempdir
 
 echo Cleanup successful
-echo Returning to start
+
 PAUSE
 
-goto start
